@@ -1,0 +1,20 @@
+<div id="search-results-display">
+    <h2>result for mobile devices.. </h2> <br/>
+
+    <a href="#/bug/{{bug.id}}" ng-repeat=" bug in bugs">
+        <div class="search-result-card">
+
+            <div class="search-card-rating">
+                <h3>(+)20 | (-)2</h3>
+            </div>
+
+            <div class="search-card-body">
+                <h3>{{bug.name}}</h3>
+                <p>{{bug.description}}</p>
+                <kbd>{{bug.tag}}</kbd>
+            </div>
+
+        </div>
+    </a>
+
+</div>

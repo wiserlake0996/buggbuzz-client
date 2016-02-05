@@ -1,0 +1,16 @@
+@media only screen and (max-width:500px){
+    
+    #search-area{
+        width: 95%;
+    }
+    
+    #display{
+        width: 95%;
+        
+    }
+    
+    nav{
+        width: 95%;
+        
+    }
+}

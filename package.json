@@ -1,0 +1,20 @@
+{
+  "name": "client_app",
+  "version": "1.0.0",
+  "engines":{
+    "node": "0.12.5"
+  },
+  "description": "server to host client app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "wiserlake",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1"
+  }
+}

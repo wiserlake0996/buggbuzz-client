@@ -1,0 +1,1 @@
+var app = angular.module('bbMainApp', ['ui.router', 'bugApp', 'searchApp', 'generalApp','bbConfigApp']);

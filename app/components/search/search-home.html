@@ -1,0 +1,40 @@
+<section id="search-area" ng-controller="searchController">
+    
+    <form ng-submit = "search()">
+        <div class="form-group">
+            <label for="search-box" class="sr-only">search box</label>
+            <input type="text" ng-model="searchText" class="form-control input-lg search-box" name="search-box" placeholder="search...">
+
+        </div>
+    </form>
+</section>
+<section id="display">
+    <div ui-view>
+        <h3>search by..</h3> 
+        <div id="display-menu">
+            
+            
+            <div class="menu-card">
+                <a ui-sref=".search">
+                    <img src="https://dbvc4uanumi2d.cloudfront.net/cdn/4.5.23/wp-content/themes/oculus/img/order/dk2-product.jpg" alt="image">
+                    <h4>WEARABLES</h4>
+                    <p>Click here to list and search by device eg. smart watches etc..</p>
+                </a>
+            </div>
+            <div class="menu-card">
+                <a href="#">
+                    <img src="https://i.kinja-img.com/gawker-media/image/upload/s--UT0CI9jF--/c_fill,fl_progressive,g_north,h_358,q_80,w_636/h19qiqqfs0xrtjhyyk07.jpg" alt="image">
+                    <h4>HOME AUTOMATION</h4>
+                    <p>Click here to list and search by device eg. nest etc..</p>
+                </a>
+            </div>
+
+            <div class="menu-card">
+                <a ui-sref=".mobile">
+                    <img src="http://tdg2.s3.amazonaws.com/wp-content/uploads/2013/09/iPhone-vs-WP7-vs-Android.jpg">
+                    <h4>MOBILE DEVICES</h4>
+                    <p>Click here to list and search by device eg. phones, tablets etc..</p>
+                </a>
+            </div>        
+    </div>
+</section>

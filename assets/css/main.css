@@ -1,0 +1,155 @@
+/****** GENERAL CSS *******/
+
+
+body{
+    background-color:#F2F2F2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content{
+    width: 70%;
+    margin: 70px auto;
+}
+
+.menu-display{
+   
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+        
+}
+
+a, a:hover{
+    text-decoration:none;        
+}
+
+/******** MAIN CSS************/
+nav{
+    margin: 20px auto;
+    width: 30%;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+
+
+/***************** SEARCH BOX AREA CSS ********************/
+
+#search-area{
+    margin: 70px auto;
+
+}
+
+#search-area h2{
+    text-align: center;
+}
+
+#search-area form{
+    margin-top: 30px;
+}
+
+/******************* display area CSS  ****************/
+#display{
+    margin: -20px auto;
+
+}
+
+
+/**************** display menu css *********************/
+#display-menu{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-card{
+    background-color: #fff;
+    margin: 10px 5px 10px 5px;
+    padding: 10px;
+    width: 225px;
+    height: 300px;
+        
+    -webkit-box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.25);
+    box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.25);   
+}
+
+    .menu-card a{
+        color: #125ca2;
+    }
+
+        .menu-card a img{
+            max-width: 210px;
+            max-height: 150px;
+            width: auto;
+            height: auto;
+        }
+
+    .menu-card h4{
+        text-align: center;
+    }
+
+
+/**************** search results css **************/
+
+#search-results-display{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.search-result-card{
+    background-color: #fff;
+    display: flex;
+    padding: 5px;
+    margin: 5px 0 10px 0;
+    
+    
+    -webkit-box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.25);
+    box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.25);    
+}
+
+.search-card-rating, .search-card-body{
+    margin: 0 5px 0 5px;
+}
+
+.search-card-rating{
+    width: 20%;
+}
+
+.search-card-rating h3{
+    margin: 40px auto;
+}
+   
+
+.search-card-body{
+    width: 78%
+}
+
+
+
+/***********************BUG CSS *********************/
+#bug-details{
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#bug-submit{
+    
+    margin-top: 20px;
+}
+
+/****************** update signup css **************/
+#update-signup h4{
+    text-align: center;
+}
+
+
+
+
+
