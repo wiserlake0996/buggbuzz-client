@@ -16,6 +16,12 @@ configApp.config(function($stateProvider, $urlRouterProvider, $locationProvider)
             templateUrl: 'app/components/search/partial-search-results.html',
             controller: 'searchResultCtrl'
         })
+        
+        .state('home.sample-search',{
+            url: '/sample-search/:q',
+            templateUrl: 'app/components/search/partial-search-results.html',
+            controller: 'sampleSearchCtrl'
+        })        
     
         .state('bug',{
             url: '/bug/:bugid',
@@ -33,6 +39,11 @@ configApp.config(function($stateProvider, $urlRouterProvider, $locationProvider)
             url: '/update-signup',
             templateUrl: 'app/components/general/partial-users-updates.html',
             controller: 'emailSubmitCtrl'
+        })
+        
+        .state('redirect',{
+            url: '/redirect',
+            template: '<h2>Ooops! it seems like there is a problem</h2> <p> so just check out one of the pages that seems to work <a ui-sref="home.sample-search">here</a></p>'
         })
     
       

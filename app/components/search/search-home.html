@@ -1,4 +1,4 @@
-<section id="search-area" ng-controller="searchController">
+<section id="search-area" ng-controller="searchCtrl">
     
     <form ng-submit = "search()">
         <div class="form-group">
@@ -15,14 +15,14 @@
             
             
             <div class="menu-card">
-                <a ui-sref=".search">
+                <a href="#/redirect">
                     <img src="https://dbvc4uanumi2d.cloudfront.net/cdn/4.5.23/wp-content/themes/oculus/img/order/dk2-product.jpg" alt="image">
                     <h4>WEARABLES</h4>
                     <p>Click here to list and search by device eg. smart watches etc..</p>
                 </a>
             </div>
             <div class="menu-card">
-                <a href="#">
+                <a href="#/redirect">
                     <img src="https://i.kinja-img.com/gawker-media/image/upload/s--UT0CI9jF--/c_fill,fl_progressive,g_north,h_358,q_80,w_636/h19qiqqfs0xrtjhyyk07.jpg" alt="image">
                     <h4>HOME AUTOMATION</h4>
                     <p>Click here to list and search by device eg. nest etc..</p>
@@ -30,7 +30,7 @@
             </div>
 
             <div class="menu-card">
-                <a ui-sref=".mobile">
+                <a ui-sref=".sample-search">
                     <img src="http://tdg2.s3.amazonaws.com/wp-content/uploads/2013/09/iPhone-vs-WP7-vs-Android.jpg">
                     <h4>MOBILE DEVICES</h4>
                     <p>Click here to list and search by device eg. phones, tablets etc..</p>
